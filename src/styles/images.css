@@ -1,0 +1,44 @@
+
+/* Add your profile image here */
+.Photo{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/WP_20161213_12_20_02_Pro-removebg-preview%20(1).jpg?raw=true');
+    
+}
+/* Projects Photo */
+.project1{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/orbitz.jpg?raw=true');
+    cursor: none;    
+}
+.project2{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/ebay.jpg?raw=true');
+    cursor: none;
+}
+.project3{
+    background-image: url('https://github.com/pabloescobar4/Walmart-Clone/blob/main/images/home.png?raw=true');
+    cursor: none;
+}
+.project4{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/food.png?raw=true');
+    cursor: none;
+}
+.project5{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/notepad.png?raw=true');
+    cursor: none;
+}
+.project6{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
+    cursor: none;
+}
+/* Miscelaneous Activities photo */
+.misc1{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/orbitzB.png?raw=true');
+    cursor: none;
+}
+.misc2{
+    background-image: url('https://github.com/Sweta-Swarnakar/portfolio/blob/master/public/ebayB.png?raw=true');
+    cursor: none;
+}
+.misc3{
+    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
+    cursor: none;
+}
