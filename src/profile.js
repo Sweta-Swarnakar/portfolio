@@ -19,8 +19,11 @@ const background = {
 // To update your image, go to './styles/images.css'
 const section2title = "About Me";
 const about = {
-  paragraph:
-    "Hello, my name is Sweta Swarnakar.I am from Nadia, West Bengal. I always have had a passion for technologies which resulted into me choosing web development. I am Skilled full-stack developer looking to associate with a progressive organization to hone my technical skills and grow professionally."
+  paragraph: `
+Hi, I'm Sweta Swarnakar, a Full-Stack Developer with 4 years of experience in building modern web applications using Ember.js, Node.js, and MongoDB.
+
+I focus on creating scalable backend systems and clean, responsive frontend experiences while continuously learning and improving as a developer.
+`
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
