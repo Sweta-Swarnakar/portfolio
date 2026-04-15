@@ -538,11 +538,13 @@ progress {
   padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
+  height: auto;
 }
 @media (min-width: 576px) {
   .container,
   .container-sm {
     max-width: 540px;
+    height: auto;
   }
 }
 @media (min-width: 768px) {
@@ -550,6 +552,7 @@ progress {
   .container-md,
   .container-sm {
     max-width: 720px;
+    height: auto;
   }
 }
 @media (min-width: 992px) {
@@ -558,6 +561,7 @@ progress {
   .container-md,
   .container-sm {
     max-width: 960px;
+    height: auto;
   }
 }
 @media (min-width: 1200px) {
@@ -567,6 +571,7 @@ progress {
   .container-sm,
   .container-xl {
     max-width: 1140px;
+    height: auto;
   }
 }
 @media (min-width: 1400px) {
@@ -577,6 +582,8 @@ progress {
   .container-xl,
   .container-xxl {
     max-width: 1320px;
+    height: auto;
+  
   }
 }
 .row {
@@ -588,6 +595,7 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
+  height: auto;
 }
 .row > * {
   flex-shrink: 0;
@@ -679,6 +687,7 @@ progress {
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
+ 
 }
 .offset-1 {
   margin-left: 8.333333%;
@@ -820,6 +829,7 @@ progress {
   .col-sm-6 {
     flex: 0 0 auto;
     width: 50%;
+    
   }
   .col-sm-7 {
     flex: 0 0 auto;
@@ -3649,6 +3659,7 @@ fieldset:disabled .btn {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+ 
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -5929,7 +5940,7 @@ button.close {
   align-items: flex-end !important;
 }
 .align-items-center {
-  align-items: center !important;
+  align-items: flex-start !important;
 }
 .align-items-baseline {
   align-items: baseline !important;
